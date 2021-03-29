@@ -1,0 +1,261 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"/><title>فتح ملف</title><noscript><p><br/><br/>'يجب أن يكون متصفحك متوافقًا مع JavaScript.'</p></noscript><script nonce="3nR/hCqP2EyytrtRVoDV5g">var rawConfig = {"pp":"[]","parent":"https://sites.google.com/relay.html","hl":"ar","ecc":false,"cac":false,"origin":"https://sites.google.com","js":"PROD","uploadConfigs":"{\"docs\":{\"mechanisms\":[\"XHR\",\"HTML_FORM\"],\"det\":\"عفوًا، لقد سحبت أكثر من ملف واحد! \\u003cbr\\u003e لا يمكنك تحميل سوى ملف واحد. يُرجى إعادة المحاولة.\",\"dzt\":\"اسحب ملفًا هنا\",\"dzat\":\"أو إذا كنت تفضل...\",\"selectLabel\":\"اختيار ملف من جهازك\",\"uet\":\"لقد حدث خطأ في التحميل.\",\"url\":\"/upload/resumableuploadsc\"}}","selectButtonLabel":"فتح","title":"فتح ملف","tdeemi":true,"sid":"6f1ce777-8500-42a8-93a1-6883b7fc71eb","du":true,"tdefmo":true,"ppms":true,"protocol":"gadgets","esdr":true,"endv":true,"erd":false,"rpcToken":"8txu9mc7vih0","pref":{},"uriParams":{"app":"2","clientUser":"08309662316055414457","subapp":"5","authuser":"0"},"prefetchUriQuery":{"start":0,"numResults":50,"sort":3,"desc":true,"cursor":"","mine":2,"service":"docs","type":"EVERYTHING","options":{"ff":true,"notInFolder":true,"mimeTypes":"application/vnd.google-apps.drive-sdk.897606708560,application/vnd.google-apps.site,application/vnd.google-apps.drive-sdk.803534686002,application/vnd.google-apps.folder","ownedByMe":true},"token":"gBrXo3gBAAA.9NMud71e69fpX9fMUiurdQ.kDwVsWDgx3AK_wf0QjcQkA","version":4,"app":"2","clientUser":"08309662316055414457","subapp":"5","authuser":"0"},"ecsi":false,"xtoken":"AL7Jy1y65mVwV5zLoNsOKEKHVmQ-kOZJxg:1617051686527","authuser":0,"email":"amnamh2000@gmail.com","dpm":"انتهى عصر المرفقات ومرحبًا بعصر خدمة Google Drive.","nav":"[[\"sites\",\"ملفاتي\",{\"selectFolder\":true,\"drdis\":false,\"includeFolders\":true,\"docTypesDropDown\":true,\"ownedByMe\":true}],[\"sites\",\"تمت مشاركتها معي\",{\"selectFolder\":true,\"drdis\":false,\"includeFolders\":true,\"docTypesDropDown\":true,\"ownedByMe\":false}],[\"sites\",\"مميّزة بنجمة\",{\"starred\":true,\"selectFolder\":true,\"drdis\":false,\"includeFolders\":true,\"docTypesDropDown\":true}],[\"sites\",\"الأخيرة\",{\"sortKey\":15,\"selectFolder\":true,\"drdis\":false,\"docTypesDropDown\":true}],[\"upload\",null,{\"query\":\"docs\",\"enableUploadConversion\":true}]]","burl":"https://docs.google.com/picker/v2/","rupioUrl":"","rpcService":"1kryxoon7z8d","wcs":"picker/resources/2895993761-web_camera.swf","dppm":"باستخدام Google Drive، لن تضطر مطلقًا إلى إرسال مرفق بريد إلكتروني آخر مرة أخرى. كل ما عليك هو مشاركة رابط إلى أي ملف تخزنه في Google Drive. وبتلك الطريقة، يستطيع أي شخص الدخول إلى الملف نفسه والنسخة نفسها تلقائيًا.","newDriveView":true,"hostId":"homescreen__atari","gpu":false,"pimm":false,"userId":"107650609791063939455","ianu":false,"token":"gBrXo3gBAAA.9NMud71e69fpX9fMUiurdQ.kDwVsWDgx3AK_wf0QjcQkA","gdn":"Gmail","vg":"female","prefetchUriParams":{"hl":"ar","hostId":"homescreen__atari","xtoken":"AL7Jy1y65mVwV5zLoNsOKEKHVmQ-kOZJxg:1617051686527"},"defaultView":"[\"sites\",\"ملفاتي\",{\"selectFolder\":true,\"drdis\":false,\"includeFolders\":true,\"docTypesDropDown\":true,\"ownedByMe\":true}]","upp":"https://lh6.googleusercontent.com/-u4o81vjmDO8/AAAAAAAAAAI/AAAAAAAAAAA/Tv5sMFhTtnc/photo.jpg","efmif":true,"prefetchEnabled":true}
+            Deferred = function(prefetchXhr) {
+              this.callback_ = null;
+              this.isCallbackCalled_ = false;
+              this.prefetchXhr_ = prefetchXhr;
+            };
+
+            Deferred.prototype.addCallback = function(callback) {
+              if (this.isCallbackCalled_) {
+                callback(this.prefetchXhr_.status, this.prefetchXhr_.responseText);
+              } else {
+                this.callback_ = callback;
+              }
+            };
+            Deferred.prototype.callback = function() {
+              if (!!this.callback_) {
+                this.callback_(this.prefetchXhr_.status, this.prefetchXhr_.responseText);
+              }
+              this.isCallbackCalled_ = true;
+              this.callback_ = null;
+            };
+          var prefetchUri = 'picker\/pvr?hl\x3dar\x26hostId\x3dhomescreen__atari\x26xtoken\x3dAL7Jy1y65mVwV5zLoNsOKEKHVmQ-kOZJxg:1617051686527'; var prefetchQueryData = 'start\x3d0\x26numResults\x3d50\x26sort\x3d3\x26desc\x3dtrue\x26cursor\x26mine\x3d2\x26service\x3ddocs\x26type\x3dEVERYTHING\x26options\x3d%7B%22ff%22:true,%22notInFolder%22:true,%22mimeTypes%22:%22application\/vnd.google-apps.drive-sdk.897606708560,application\/vnd.google-apps.site,application\/vnd.google-apps.drive-sdk.803534686002,application\/vnd.google-apps.folder%22,%22ownedByMe%22:true%7D\x26token\x3dgBrXo3gBAAA.9NMud71e69fpX9fMUiurdQ.kDwVsWDgx3AK_wf0QjcQkA\x26version\x3d4\x26app\x3d2\x26clientUser\x3d08309662316055414457\x26subapp\x3d5\x26authuser\x3d0';
+            if (window.XMLHttpRequest) {
+              var RESPONSE_READY = 4;
+              var prefetchXhr = new XMLHttpRequest();
+              rawConfig['prefetchQueryRequest'] = new Deferred(prefetchXhr);
+              prefetchXhr.onreadystatechange = function() {
+                if (prefetchXhr.readyState == RESPONSE_READY) {
+                  rawConfig['prefetchQueryRequest'].callback();
+                }
+              }
+              prefetchXhr.open("POST", prefetchUri, true /* async */);
+              prefetchXhr.setRequestHeader("Content-Type",
+                  "application/x-www-form-urlencoded;charset=UTF-8");
+              prefetchXhr.send(prefetchQueryData);
+            }
+          </script><link rel="stylesheet" href="https://docs.google.com/picker/static/resources/client/css/3288321659-picker_v2_rtl.css" nonce="3nR/hCqP2EyytrtRVoDV5g"><style nonce="3nR/hCqP2EyytrtRVoDV5g">/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xFIzIFKw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xMIzIFKw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xEIzIFKw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xLIzIFKw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xGIzIFKw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xIIzI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic3CsTKlA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic-CsTKlA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic2CsTKlA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic5CsTKlA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic0CsTKlA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic6CsQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style></head><body dir="rtl"><div class="picker-loadingstatusbox picker-loadingstatusbox-body"></div><div id="doclist"></div><script src="https://docs.google.com/picker/static/resources/client/js/4167835839-picker_modularized_i18n_opc__ar.js" nonce="3nR/hCqP2EyytrtRVoDV5g"></script><script nonce="3nR/hCqP2EyytrtRVoDV5g">var pickerApp; var moduleDeps = {"opc":[],"opd":["opc"],"opdr":["opc"],"opl":["opc"],"opm":["opc"],"opmd":["opc"],"opp":["opc"],"oppe":["opc"],"opr":["opc"],"opu":["opc"],"opv":["opc"],"oppu":["opp","opu"]}; var moduleUris = {"opr":["https://docs.google.com/picker/static/resources/client/js/1510024111-picker_modularized_i18n_opr__ar.js"],"opd":["https://docs.google.com/picker/static/resources/client/js/3486495524-picker_modularized_i18n_opd__ar.js"],"oppe":["https://docs.google.com/picker/static/resources/client/js/2185691332-picker_modularized_i18n_oppe__ar.js"],"oppu":["https://docs.google.com/picker/static/resources/client/js/1188883030-picker_modularized_i18n_oppu__ar.js"],"opc":["https://docs.google.com/picker/static/resources/client/js/4167835839-picker_modularized_i18n_opc__ar.js"],"opv":["https://docs.google.com/picker/static/resources/client/js/795641190-picker_modularized_i18n_opv__ar.js"],"opu":["https://docs.google.com/picker/static/resources/client/js/4218934235-picker_modularized_i18n_opu__ar.js"],"opl":["https://docs.google.com/picker/static/resources/client/js/1475430308-picker_modularized_i18n_opl__ar.js"],"opdr":["https://docs.google.com/picker/static/resources/client/js/3937621070-picker_modularized_i18n_opdr__ar.js"],"opmd":["https://docs.google.com/picker/static/resources/client/js/2632553781-picker_modularized_i18n_opmd__ar.js"],"opm":["https://docs.google.com/picker/static/resources/client/js/2819917277-picker_modularized_i18n_opm__ar.js"],"opp":["https://docs.google.com/picker/static/resources/client/js/470137682-picker_modularized_i18n_opp__ar.js"]}; initModules( moduleDeps, moduleUris, false , 'opc');document.addEventListener('DOMContentLoaded', function () {rawConfig['element'] = document.getElementById('doclist'); rawConfig['loadingStatusElement'] = document.body; pickerApp = _createPicker(rawConfig); pickerApp.initializeFromServer(rawConfig);}); document.addEventListener('unload', function () {if (pickerApp) {pickerApp.dispose(); pickerApp = null;}});</script></body></html>
